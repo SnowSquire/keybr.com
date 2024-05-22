@@ -821,6 +821,20 @@ export class Layout implements XEnumItem {
       Geometry.ISO_102_FULL,
     ),
   );
+  static readonly EN_COLEMAK_DHK_ANSI = new Layout(
+    /* id= */ "en-colemak-dhk",
+    /* xid= */ 0x96,
+    /* name= */ "Colemak-DHk (ANSI)",
+    /* family= */ "colemak-dhk",
+    /* language= */ Language.EN,
+    /* emulate= */ true,
+    /* geometries= */ new Enum(
+      Geometry.ANSI_101,
+      Geometry.ANSI_101_FULL,
+      Geometry.MATRIX,
+    ),
+    /* mod= */ angleMod,
+  );
 
   static readonly ALL = new XEnum<Layout>(
     Layout.EN_US,
@@ -831,6 +845,7 @@ export class Layout implements XEnumItem {
     Layout.EN_COLEMAK_DH_ISO,
     Layout.EN_COLEMAK_DH_ISO_WIDE,
     Layout.EN_COLEMAK_DH_MATRIX,
+    Layout.EN_COLEMAK_DHK_ANSI,
     Layout.EN_WORKMAN,
     Layout.EN_CANARY,
     Layout.EN_CANARY_MATRIX,

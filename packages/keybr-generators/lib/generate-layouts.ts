@@ -32,6 +32,7 @@ for (const [id, dict] of [
   ["en_colemak_dh_iso", undead(importKlc("layouts/colemak_dh_iso_uk.klc"))],
   ["en_colemak_dh_iso_wide", undead(importKlc("layouts/colemak_dh_iso_uk_wide.klc"))],
   ["en_colemak_dh_matrix", undead(importKlc("layouts/colemak_dh_matrix_us.klc"))],
+  ["en_colemak_dhk_ansi", undead(importKlc("layouts/colemak_dhk_ansi_us.klc"))],
   ["en_dvorak", importCldr("cldr-keyboards-43.0/keyboards/windows/en-t-k0-windows-dvorak.xml")],
   ["en_dvorak_l", importCldr("cldr-keyboards-43.0/keyboards/windows/en-t-k0-windows-dvorakl.xml")],
   ["en_dvorak_prog", importKeymap("layouts/en_dvorak_prog.json")],
